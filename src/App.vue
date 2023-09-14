@@ -24,7 +24,7 @@ export default {
   },
   methods: {
     getFood(){
-      this.foodsApi.getFood().then(response=>{this.foods=response.data.results;}).catch(e=>{this.error.push(e)})
+      this.foodsApi.getFood().then(response=>{this.foods=response.data;}).catch(e=>{this.error.push(e)})
     }
   }
 }
