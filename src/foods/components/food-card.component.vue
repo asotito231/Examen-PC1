@@ -18,7 +18,7 @@
 
 <script>
 export default {
-  name: "food-card",
+  name: "food-information-card",
   props: {
     food: null,
   }
