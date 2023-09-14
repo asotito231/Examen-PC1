@@ -1,9 +1,3 @@
-<template>
-  <div v-for="food in foods">
-    <food-information-card :user="food"></food-information-card>
-  </div>
-</template>
-
 <script>
 import FoodInformationCard from "./food-card.component.vue";
 export default {
@@ -14,6 +8,12 @@ export default {
   }
 }
 </script>
+
+<template>
+  <div v-for="food in foods">
+    <food-information-card :food="food"></food-information-card>
+  </div>
+</template>
 
 <style scoped>
 
