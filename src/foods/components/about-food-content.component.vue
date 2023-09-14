@@ -2,7 +2,7 @@
   <div>
     <pv-toolbar class="bg-primary">
       <template #start>
-        <h1>About User</h1>
+        <h1>About Foods</h1>
       </template>
     </pv-toolbar>
   </div>
