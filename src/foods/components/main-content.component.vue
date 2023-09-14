@@ -1,6 +1,6 @@
 <template>
-  <div v-for="user in users">
-    <food-information-card :user="user"></food-information-card>
+  <div v-for="food in foods">
+    <food-information-card :user="food"></food-information-card>
   </div>
 </template>
 
@@ -10,7 +10,7 @@ export default {
   name: 'main-content',
   components: {FoodInformationCard},
   props:{
-    users: Array,
+    foods: Array,
   }
 }
 </script>
